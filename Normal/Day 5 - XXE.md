@@ -69,7 +69,6 @@ Example
 Disable External Entity Loading: The primary fix is to disable external entity loading in your XML parser. In PHP, for example, you can prevent XXE by setting libxml_disable_entity_loader(true) before processing the XML.
 Validate and Sanitise User Input: Always validate and sanitise the XML input received from users. This ensures that only expected data is processed, reducing the risk of malicious content being included in the request. For example, remove suspicious keywords like /etc/host, /etc/passwd, etc, from the request.
 
-
 ******************************************
                 Investigation
 ******************************************        
